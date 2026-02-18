@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation } from 'react-router';
 import { Menu, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
-
+import logoImage from 'figma:asset/63895a365fdead63128892c4886fa141388aa5b6.png';
 
 export function Layout() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,12 +42,11 @@ export function Layout() {
           <div className="flex justify-between items-center h-20">
             <Link to="/" className="flex items-center">
               <img 
-  src="/logo.png"
-  alt="Think Acquisition"
-  className="h-14 w-auto object-contain mb-1"
-  style={{ imageRendering: 'crisp-edges' }}
-/>
-
+                src={logoImage} 
+                alt="Think Acquisition" 
+                className="h-12 w-auto object-contain"
+                style={{ imageRendering: 'crisp-edges' }}
+              />
             </Link>
 
             {/* Desktop Menu */}
@@ -125,12 +124,11 @@ export function Layout() {
             <div className="md:col-span-2">
               <div className="inline-block mb-6">
                 <img 
-  src="/logo.png"
-  alt="Think Acquisition"
-  className="h-14 w-auto object-contain mb-1"
-  style={{ imageRendering: 'crisp-edges' }}
-/>
-
+                  src={logoImage} 
+                  alt="Think Acquisition" 
+                  className="h-14 w-auto object-contain mb-1"
+                  style={{ imageRendering: 'crisp-edges' }}
+                />
                 <div className="text-xs text-[#FDB913] font-semibold">Excellence in Federal Acquisition</div>
               </div>
               <p className="text-white/70 mb-4">
