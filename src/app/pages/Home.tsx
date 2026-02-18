@@ -51,7 +51,6 @@ export function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
         
       </section>
 
@@ -237,6 +236,7 @@ export function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl shadow-professional-xl p-8 md:p-12 border border-gray-100">
               <div className="flex items-center justify-center">
                 <img 
+                  src={agencyLogos} 
                   alt="Federal Agency Partners including NOAA, CMS, WHS, DHS, TSA, HHS, DOD, USCG, ICE, SWaM, SDVOSB, and VA" 
                   className="w-full max-w-4xl h-auto object-contain"
                   style={{ imageRendering: 'crisp-edges' }}

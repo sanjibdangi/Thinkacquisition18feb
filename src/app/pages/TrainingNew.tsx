@@ -189,7 +189,7 @@ export function TrainingNew() {
       </section>
 
       {/* Training Programs */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-16 md:py-20 bg-[#A3A2A3]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-[#FDB913] font-bold text-sm tracking-wider uppercase">Our Programs</span>
@@ -313,7 +313,7 @@ export function TrainingNew() {
       </section>
 
       {/* Process */}
-      <section className="py-24 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-16 md:py-20 bg-[#A3A2A3]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="text-[#FDB913] font-bold text-sm tracking-wider uppercase">How It Works</span>

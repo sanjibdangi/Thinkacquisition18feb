@@ -74,7 +74,7 @@ export function AboutNew() {
       </section>
 
       {/* William Randolph Bio Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden">
+      <section className="py-16 md:py-20 bg-[#A3A2A3]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
           <div className="mb-8 md:mb-12">
@@ -91,7 +91,8 @@ export function AboutNew() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-professional-xl h-full min-h-[400px] md:min-h-[600px]">
                 <img
-                  src="https://thinkacquisition.net/wp-content/uploads/2022/08/William-Headshot-Element.png"
+                  src="/business.png"
+                  alt="William Randolph"
                   className="w-full h-full object-cover"
                 />
               </div>

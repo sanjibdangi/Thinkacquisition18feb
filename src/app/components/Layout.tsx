@@ -43,8 +43,8 @@ export function Layout() {
             <Link to="/" className="flex items-center">
               <img 
   src="/logo.png"
-  alt="Think Acquisition"
-  className="h-14 w-auto object-contain mb-1"
+  alt="Think Acquisition" 
+  className="h-12 w-auto object-contain"
   style={{ imageRendering: 'crisp-edges' }}
 />
 
@@ -126,8 +126,8 @@ export function Layout() {
               <div className="inline-block mb-6">
                 <img 
   src="/logo.png"
-  alt="Think Acquisition"
-  className="h-14 w-auto object-contain mb-1"
+  alt="Think Acquisition" 
+  className="h-12 w-auto object-contain"
   style={{ imageRendering: 'crisp-edges' }}
 />
 

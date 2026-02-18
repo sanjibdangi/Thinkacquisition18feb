@@ -66,7 +66,6 @@ export function BusinessDevelopment() {
         </div>
       </section>
 
-      {/* WATCH Section */}
      {/* WATCH Section */}
 <section className="py-16 md:py-20 bg-gradient-to-br from-[#2B4A9D] via-[#1E3A8A] to-[#162E6B]">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,7 +110,7 @@ export function BusinessDevelopment() {
       >
         <div className="relative rounded-xl overflow-hidden shadow-2xl">
           <img 
-            src="/videos-2.png"
+            src="/video-2.png"
             alt="Video Thumbnail"
             className="w-full h-64 object-cover"
           />

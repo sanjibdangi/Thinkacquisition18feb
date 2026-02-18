@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
 
+
 export function Resources() {
   return (
     <div className="bg-white">
@@ -34,44 +35,38 @@ export function Resources() {
             {/* Left - Text Content */}
             <div>
               <h2 className="text-xl md:text-2xl lg:text-3xl font-black text-[#1E3A8A] mb-2 uppercase tracking-wider">
-    Talking Acquisition
-  </h2>
-
-  <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
-    Long-Seasoned Pros Break Down What's Going on in the Acquisition World
-  </h3>
-
-  <p className="text-gray-700 leading-relaxed mb-6 text-base md:text-lg">
-    William and his co-host Jarrod Carter have over 70 years of combined
-    experience in acquisition within the federal government. Join them as
-    they discuss everything from current trends to the nitty-gritty of
-    contracting careers to how to manage up when working in a federal agency.
-  </p>
-
-  <a
-    href="https://www.youtube.com/@talkingacquisition7838"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-block bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all transform hover:scale-105"
-  >
-    Subscribe on YouTube
-  </a>
+                Talking Acquisition
+              </h2>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
+                Long-Seasoned Pros Break Down What's Going on in the Acquisition World
+              </h3>
+              
+              <p className="text-gray-700 leading-relaxed mb-6 text-base md:text-lg">
+                William and his co-host Jarrod Carter have over 70 years of combined experience in acquisition within the federal government. Join them as they discuss everything from current trends to the nitty-gritty of contracting careers to how to manage up when working in a federal agency.
+              </p>
+              <a
+          href="https://www.youtube.com/channel/UCuYjdrI3TelR2tzZNEhRGOw"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all transform hover:scale-105"
+        >
+          Subscribe on YouTube
+        </a>
+              
             </div>
 
             {/* Right - Video Embed */}
-            <div>
-  <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
+            <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
     <iframe
-      className="w-full h-full"
-      src="https://www.youtube.com/embed/rdJ38az0U0A?start=47"
-      title="Talking Acquisition - Episode 31"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-  </div>
-</div>
+  className="w-full h-full"
+  src="https://www.youtube.com/embed/rdJ38az0U0A"
+  title="William's World"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
 
+  </div>
           </div>
         </div>
       </section>
@@ -99,7 +94,7 @@ export function Resources() {
 
         {/* ✅ WORKING YOUTUBE SUBSCRIBE BUTTON */}
         <a
-          href="https://www.youtube.com/@talkingacquisition7838"
+          href="https://www.youtube.com/channel/UCuYjdrI3TelR2tzZNEhRGOw"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all transform hover:scale-105"
@@ -141,6 +136,7 @@ export function Resources() {
   className="w-32 h-32 md:w-40 md:h-40 object-contain mx-auto"
   style={{ imageRendering: 'crisp-edges' }}
 />
+
 
           </div>
           

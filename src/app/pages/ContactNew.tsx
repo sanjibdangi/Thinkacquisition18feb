@@ -278,7 +278,7 @@ export function ContactNew() {
       </section>
 
       {/* Response Time Guarantee */}
-      <section className="py-16 bg-white">
+      <section className="py-16 md:py-20 bg-[#A3A2A3]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-[#1E3A8A] to-[#2563EB] rounded-3xl p-10 text-white text-center shadow-professional-xl">
             <Clock className="mx-auto mb-4 text-[#FDB913]" size={48} />
