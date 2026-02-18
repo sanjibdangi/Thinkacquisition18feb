@@ -67,107 +67,123 @@ export function BusinessDevelopment() {
       </section>
 
       {/* WATCH Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-br from-[#2B4A9D] via-[#1E3A8A] to-[#162E6B]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white text-center mb-8 md:mb-12 uppercase tracking-wide">
-            Watch
-          </h2>
+     {/* WATCH Section */}
+<section className="py-16 md:py-20 bg-gradient-to-br from-[#2B4A9D] via-[#1E3A8A] to-[#162E6B]">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white text-center mb-8 md:mb-12 uppercase tracking-wide">
+      Watch
+    </h2>
 
-          <div className="grid md:grid-cols-2 gap-6 md:gap-8">
-            {/* Video 1 */}
-            <div className="group">
-              <div className="relative rounded-xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByZXNlbnRhdGlvbiUyMHZpZGVvfGVufDF8fHx8MTc3MTI3MTkwMHww&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Video Thumbnail"
-                  className="w-full h-64 object-cover"
-                />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
-                  <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
-                    <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
-                  </div>
-                </div>
-                {/* Title Bar */}
-                <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
-                  <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
-                    Your Customers Can't Unsee You
-                  </p>
-                </div>
-              </div>
-            </div>
+    <div className="grid md:grid-cols-2 gap-6 md:gap-8">
 
-            {/* Video 2 */}
-            <div className="group">
-              <div className="relative rounded-xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMHByZXNlbnRhdGlvbnxlbnwxfHx8fDE3NzEyNzE5MDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Video Thumbnail"
-                  className="w-full h-64 object-cover"
-                />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
-                  <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
-                    <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
-                  </div>
-                </div>
-                {/* Title Bar */}
-                <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
-                  <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
-                    The Wednesday Word: Interesting
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Video 3 */}
-            <div className="group">
-              <div className="relative rounded-xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG1lZXRpbmclMjBvZmZpY2V8ZW58MXx8fHwxNzcxMjcxOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Video Thumbnail"
-                  className="w-full h-64 object-cover"
-                />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
-                  <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
-                    <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
-                  </div>
-                </div>
-                {/* Title Bar */}
-                <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
-                  <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
-                    The Wednesday Word: Digest-A-Bility
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Video 4 */}
-            <div className="group">
-              <div className="relative rounded-xl overflow-hidden shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHdoaXRlYm9hcmQlMjBwcmVzZW50YXRpb258ZW58MXx8fHwxNzcxMjcxOTAwfDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="Video Thumbnail"
-                  className="w-full h-64 object-cover"
-                />
-                {/* Play Button Overlay */}
-                <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
-                  <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
-                    <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
-                  </div>
-                </div>
-                {/* Title Bar */}
-                <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
-                  <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
-                    William's Whiteboard: October Assist
-                  </p>
-                </div>
-              </div>
+      {/* Video 1 */}
+      <a
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7028486035957280768/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block"
+      >
+        <div className="relative rounded-xl overflow-hidden shadow-2xl">
+          <img 
+            src="/videos-1.png"
+            alt="Video Thumbnail"
+            className="w-full h-64 object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
+            <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
+              <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
             </div>
           </div>
+          <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
+            <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
+              Your Customers Can't Unsee You
+            </p>
+          </div>
         </div>
-      </section>
+      </a>
+
+      {/* Video 2 */}
+      <a
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7031638628455874560/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block"
+      >
+        <div className="relative rounded-xl overflow-hidden shadow-2xl">
+          <img 
+            src="/videos-2.png"
+            alt="Video Thumbnail"
+            className="w-full h-64 object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
+            <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
+              <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
+            </div>
+          </div>
+          <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
+            <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
+              The Wednesday Word: Interesting
+            </p>
+          </div>
+        </div>
+      </a>
+
+      {/* Video 3 */}
+      <a
+        href="https://www.linkedin.com/feed/update/urn:li:activity:7029110790221615105/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block"
+      >
+        <div className="relative rounded-xl overflow-hidden shadow-2xl">
+          <img 
+            src="/videos3.png"
+            alt="Video Thumbnail"
+            className="w-full h-64 object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
+            <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
+              <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
+            </div>
+          </div>
+          <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
+            <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
+              The Wednesday Word: Digest-A-Bility
+            </p>
+          </div>
+        </div>
+      </a>
+
+      {/* Video 4 */}
+      <a
+        href="https://www.linkedin.com/posts/william-randolph-thinkacq_williams-whiteboard-ep-64-the-october-activity-6983048949196587008-Dtd3/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block"
+      >
+        <div className="relative rounded-xl overflow-hidden shadow-2xl">
+          <img 
+            src="/video04.png"
+            alt="Video Thumbnail"
+            className="w-full h-64 object-cover"
+          />
+          <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/40 transition-all">
+            <div className="bg-white rounded-full p-6 group-hover:scale-110 transition-transform shadow-xl">
+              <Play className="text-[#1E3A8A] fill-[#1E3A8A]" size={40} />
+            </div>
+          </div>
+          <div className="absolute top-0 left-0 right-0 bg-[#FDB913] py-2 px-4">
+            <p className="text-[#1E3A8A] font-bold text-sm uppercase text-center">
+              William's Whiteboard: October Assist
+            </p>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
 
       {/* Yellow Divider */}
       <div className="h-2 bg-[#FDB913]" />

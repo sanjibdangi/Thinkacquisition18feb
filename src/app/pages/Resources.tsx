@@ -1,6 +1,5 @@
 import { Link } from 'react-router';
 import { ArrowRight } from 'lucide-react';
-import logoImage from 'figma:asset/63895a365fdead63128892c4886fa141388aa5b6.png';
 
 export function Resources() {
   return (
@@ -35,76 +34,99 @@ export function Resources() {
             {/* Left - Text Content */}
             <div>
               <h2 className="text-xl md:text-2xl lg:text-3xl font-black text-[#1E3A8A] mb-2 uppercase tracking-wider">
-                Talking Acquisition
-              </h2>
-              <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
-                Long-Seasoned Pros Break Down What's Going on in the Acquisition World
-              </h3>
-              
-              <p className="text-gray-700 leading-relaxed mb-6 text-base md:text-lg">
-                William and his co-host Jarrod Carter have over 70 years of combined experience in acquisition within the federal government. Join them as they discuss everything from current trends to the nitty-gritty of contracting careers to how to manage up when working in a federal agency.
-              </p>
+    Talking Acquisition
+  </h2>
 
-              <button className="bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all">
-                Subscribe on YouTube
-              </button>
+  <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
+    Long-Seasoned Pros Break Down What's Going on in the Acquisition World
+  </h3>
+
+  <p className="text-gray-700 leading-relaxed mb-6 text-base md:text-lg">
+    William and his co-host Jarrod Carter have over 70 years of combined
+    experience in acquisition within the federal government. Join them as
+    they discuss everything from current trends to the nitty-gritty of
+    contracting careers to how to manage up when working in a federal agency.
+  </p>
+
+  <a
+    href="https://www.youtube.com/@talkingacquisition7838"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all transform hover:scale-105"
+  >
+    Subscribe on YouTube
+  </a>
             </div>
 
             {/* Right - Video Embed */}
             <div>
-              <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="Talking Acquisition - Episode 31"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
+  <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/rdJ38az0U0A?start=47"
+      title="Talking Acquisition - Episode 31"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
           </div>
         </div>
       </section>
 
       {/* William's World Section */}
       <section className="py-16 md:py-20 bg-gradient-to-br from-gray-50 to-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
-            {/* Left - Text Content */}
-            <div>
-              <h2 className="text-xl sm:text-2xl font-black text-[#1E3A8A] mb-2 uppercase tracking-wider">
-                William's World
-              </h2>
-              <h3 className="text-2xl sm:text-3xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
-                Bite-Sized Lessons for Acquisition Pros
-              </h3>
-              
-              <p className="text-gray-700 leading-relaxed mb-6 text-base sm:text-lg">
-                In these videos, William breaks out his trusty whiteboard and diy-esque markers to teach short, easy-to-digest lessons on soft skills, the acquisition process, and mindset.
-              </p>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
 
-              <button className="bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all">
-                Subscribe on YouTube
-              </button>
-            </div>
+      {/* Left - Text Content */}
+      <div>
+        <h2 className="text-xl sm:text-2xl font-black text-[#1E3A8A] mb-2 uppercase tracking-wider">
+          William's World
+        </h2>
 
-            {/* Right - Video Embed */}
-            <div>
-              <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
-                <iframe
-                  className="w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                  title="William's World"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <h3 className="text-2xl sm:text-3xl font-black text-[#FDB913] mb-4 md:mb-6 uppercase">
+          Bite-Sized Lessons for Acquisition Pros
+        </h3>
+
+        <p className="text-gray-700 leading-relaxed mb-6 text-base sm:text-lg">
+          In these videos, William breaks out his trusty whiteboard and diy-esque
+          markers to teach short, easy-to-digest lessons on soft skills, the
+          acquisition process, and mindset.
+        </p>
+
+        {/* ✅ WORKING YOUTUBE SUBSCRIBE BUTTON */}
+        <a
+          href="https://www.youtube.com/@talkingacquisition7838"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#1E3A8A] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#2563EB] transition-all transform hover:scale-105"
+        >
+          Subscribe on YouTube
+        </a>
+      </div>
+
+      {/* Right - Video Embed */}
+      <div>
+  <div className="relative rounded-xl overflow-hidden shadow-2xl aspect-video">
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/a24KI7Jdg1g"
+      title="William's World"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
 
       {/* Yellow Divider */}
       <div className="h-2 bg-[#FDB913]" />
@@ -114,11 +136,12 @@ export function Resources() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block mb-6 md:mb-8">
             <img 
-              src={logoImage} 
-              alt="Think Acquisition" 
-              className="w-20 h-20 md:w-24 md:h-24 object-contain mx-auto"
-              style={{ imageRendering: 'crisp-edges' }}
-            />
+  src="/logo.png"
+  alt="Think Acquisition"
+  className="w-32 h-32 md:w-40 md:h-40 object-contain mx-auto"
+  style={{ imageRendering: 'crisp-edges' }}
+/>
+
           </div>
           
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-4 md:mb-6">

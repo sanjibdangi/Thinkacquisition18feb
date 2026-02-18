@@ -91,8 +91,7 @@ export function AboutNew() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-professional-xl h-full min-h-[400px] md:min-h-[600px]">
                 <img
-                  src="https://images.unsplash.com/photo-1689600944138-da3b150d9cb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBidXNpbmVzcyUyMGhlYWRzaG90JTIwcG9ydHJhaXR8ZW58MXx8fHwxNzcxMTU2ODM0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                  alt="William Randolph"
+                  src="https://thinkacquisition.net/wp-content/uploads/2022/08/William-Headshot-Element.png"
                   className="w-full h-full object-cover"
                 />
               </div>

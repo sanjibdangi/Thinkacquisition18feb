@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import { ArrowRight, Award, Users, TrendingUp, Star, CheckCircle2 } from 'lucide-react';
-import agencyLogos from 'figma:asset/ba104eabcab7bc0515be8b8839a012fefccee927.png';
+
 
 export function Home() {
   return (
@@ -52,11 +52,7 @@ export function Home() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse" />
-          </div>
-        </div>
+        
       </section>
 
       {/* Quick Stats */}
@@ -241,7 +237,6 @@ export function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl shadow-professional-xl p-8 md:p-12 border border-gray-100">
               <div className="flex items-center justify-center">
                 <img 
-                  src={agencyLogos} 
                   alt="Federal Agency Partners including NOAA, CMS, WHS, DHS, TSA, HHS, DOD, USCG, ICE, SWaM, SDVOSB, and VA" 
                   className="w-full max-w-4xl h-auto object-contain"
                   style={{ imageRendering: 'crisp-edges' }}
