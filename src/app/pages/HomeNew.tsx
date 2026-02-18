@@ -211,13 +211,14 @@ export function HomeNew() {
             {/* Right - Image/Visual */}
             <div className="relative">
               <div className="relative">
-  <div className="rounded-3xl overflow-hidden shadow-xl bg-white">
-    <img
-      src="/training.png"
-      alt="Training Experience"
-      className="w-full h-auto object-contain"
-    />
-  </div>
+  <div className="rounded-3xl ">
+  <img
+    src="https://thinkacquisition.net/wp-content/uploads/2022/08/William-Headshot-Element.png"
+    alt="Training Experience"
+    className="w-full h-[420px] md:h-[520px] object-cover"
+  />
+</div>
+
 </div>
 
               {/* Decorative circle - Hidden on mobile */}
@@ -387,8 +388,7 @@ export function HomeNew() {
 {/* ================= END MICRO MARKETPLACE ================= */}
 
 
-      {/* Expert Knowledge Section */}
-      {/* ================= EXPERT KNOWLEDGE VIDEO SECTION ================= */}
+ {/* ================= EXPERT KNOWLEDGE VIDEO SECTION ================= */}
 <section className="py-20 md:py-28 bg-gradient-to-br from-[#1E3A8A] via-[#2B4A9D] to-[#2563EB]">
   <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 
@@ -409,98 +409,94 @@ export function HomeNew() {
     <div className="grid md:grid-cols-2 gap-8">
 
       {/* VIDEO 1 */}
-      <a
-        href="https://youtu.be/rdJ38az0U0A?si=bNl7Uh4_fWHqoarn"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group"
+      <div
+        className="relative overflow-hidden rounded-xl shadow-2xl cursor-pointer group"
+        onMouseEnter={(e) => {
+          const iframe = e.currentTarget.querySelector("iframe");
+          if (iframe) iframe.src = "https://www.youtube.com/embed/rdJ38az0U0A?autoplay=1&mute=1";
+        }}
+        onMouseLeave={(e) => {
+          const iframe = e.currentTarget.querySelector("iframe");
+          if (iframe) iframe.src = "https://www.youtube.com/embed/rdJ38az0U0A";
+        }}
       >
-        <div className="relative overflow-hidden rounded-xl shadow-2xl">
-
-          {/* THUMBNAIL IMAGE */}
-          <img
-            src="https://img.youtube.com/vi/rdJ38az0U0A/maxresdefault.jpg"
-            alt="Episode 31 - Commercial Acquisition Insights"
-            className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-          />
-
-          {/* DARK OVERLAY */}
-          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-
-            {/* PLAY BUTTON */}
-            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
-              <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7 ml-1">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </div>
-
-          </div>
-        </div>
-      </a>
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/rdJ38az0U0A"
+          title="Episode 31 - Commercial Acquisition Insights"
+          frameBorder="0"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
       {/* VIDEO 2 */}
-      <a
-        href="https://youtu.be/a24KI7Jdg1g?si=hDfvGgI8kaKK3tt-"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group"
+      <div
+        className="relative overflow-hidden rounded-xl shadow-2xl cursor-pointer group"
+        onMouseEnter={(e) => {
+          const iframe = e.currentTarget.querySelector("iframe");
+          if (iframe) iframe.src = "https://www.youtube.com/embed/a24KI7Jdg1g?autoplay=1&mute=1";
+        }}
+        onMouseLeave={(e) => {
+          const iframe = e.currentTarget.querySelector("iframe");
+          if (iframe) iframe.src = "https://www.youtube.com/embed/a24KI7Jdg1g";
+        }}
       >
-        <div className="relative overflow-hidden rounded-xl shadow-2xl">
-
-          {/* THUMBNAIL IMAGE */}
-          <img
-            src="https://img.youtube.com/vi/a24KI7Jdg1g/maxresdefault.jpg"
-            alt="Monday First Thing!"
-            className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-          />
-
-          {/* DARK OVERLAY */}
-          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-
-            {/* PLAY BUTTON */}
-            <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
-              <svg viewBox="0 0 24 24" fill="white" className="w-7 h-7 ml-1">
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </div>
-
-          </div>
-        </div>
-      </a>
+        <iframe
+          className="w-full h-64"
+          src="https://www.youtube.com/embed/a24KI7Jdg1g"
+          title="Monday First Thing!"
+          frameBorder="0"
+          allow="autoplay; encrypted-media; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
 
     </div>
   </div>
 </section>
+
 {/* ================= END EXPERT KNOWLEDGE SECTION ================= */}
 
 
       {/* Work with Think Acquisition CTA */}
       <section className="py-24 bg-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-6 md:p-8 lg:p-12 shadow-professional-xl border-2 border-gray-100">
-            <div className="inline-block mb-6">
-              <div className="bg-gradient-to-br from-[#1E3A8A] to-[#2563EB] w-24 h-24 rounded-2xl flex items-center justify-center mx-auto">
-                <Lightbulb className="text-[#FDB913]" size={48} />
-              </div>
-            </div>
-            
-            <h2 className="text-4xl md:text-5xl font-black text-[#1E3A8A] mb-6">
-              Work with <span className="text-[#2563EB]">Think</span> Acquisition
-            </h2>
-            
-            <p className="text-xl text-gray-700 mb-10 leading-relaxed">
-              Whether you're a government agency looking for training or a small business ready to succeed in government contracting, we have the knowledge you need.
-            </p>
-            
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-2 bg-[#FDB913] text-[#1E3A8A] px-10 py-5 rounded-xl font-bold text-lg hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-professional-xl"
-            >
-              Contact Us <ArrowRight size={24} />
-            </Link>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+    <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 md:p-10 lg:p-12 shadow-professional-xl border-2 border-gray-100">
+
+      {/* ===== BULB LOGO (WITH BUILT-IN LINES) ===== */}
+      <div className="flex justify-center mb-6">
+        <img
+          src="/bulb.png"
+          alt="Idea Bulb"
+          className="w-52 md:w-60 lg:w-68 object-contain"
+        />
+      </div>
+
+      {/* ===== TITLE ===== */}
+      <h2 className="text-3xl md:text-5xl font-black text-[#1E3A8A] mb-6">
+        Work with <span className="text-[#2563EB]">Think</span> Acquisition
+      </h2>
+
+      {/* ===== TEXT ===== */}
+      <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+        Whether you're a government agency looking for training or a small business
+        ready to succeed in government contracting, we have the knowledge you need.
+      </p>
+
+      {/* ===== BUTTON ===== */}
+      <Link
+        to="/contact"
+        className="inline-flex items-center gap-2 bg-[#FDB913] text-[#1E3A8A] px-10 py-4 rounded-xl font-bold text-lg hover:bg-yellow-400 transition-all transform hover:scale-105 shadow-professional-xl"
+      >
+        Contact Us <ArrowRight size={22} />
+      </Link>
+
+    </div>
+  </div>
+</section>
+
     </div>
   );
 }

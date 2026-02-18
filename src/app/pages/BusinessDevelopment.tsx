@@ -5,33 +5,45 @@ export function BusinessDevelopment() {
   return (
     <div className="bg-white">
       {/* Hero Section - Compact Split Design */}
-      <section className="relative grid lg:grid-cols-2">
-        {/* Left Side - Blue */}
-        <div className="relative bg-gradient-to-br from-[#1E3A8A] via-[#2B4A9D] to-[#3A5AB0] flex items-center justify-start px-8 md:px-12 lg:px-16 py-12 md:py-16">
-          {/* Subtle background pattern */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute inset-0" style={{
-              backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-              backgroundSize: '40px 40px'
-            }} />
-          </div>
-          
-          <div className="relative z-10 text-white max-w-md">
-            <p className="text-sm md:text-base font-medium tracking-widest uppercase">
-              Expert, Data-Based Guidance on the Contracting Process
-            </p>
-          </div>
-        </div>
+      <section className="relative grid lg:grid-cols-2 min-h-[260px] md:min-h-[300px]">
 
-        {/* Right Side - White */}
-        <div className="bg-white flex items-center justify-start px-8 md:px-12 lg:px-16 py-12 md:py-16">
-          <div className="max-w-xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-[#1E3A8A] leading-tight">
-              Industry Training & Business Development
-            </h1>
-          </div>
-        </div>
-      </section>
+  {/* LEFT SIDE — BLUE */}
+  <div className="relative bg-gradient-to-br from-[#1E3A8A] via-[#2B4A9D] to-[#3A5AB0] flex items-center px-8 md:px-12 lg:px-16">
+
+    {/* Background Pattern */}
+    <div className="absolute inset-0 opacity-10">
+      <div
+        className="absolute inset-0"
+        style={{
+          backgroundImage:
+            "radial-gradient(circle at 2px 2px, white 1px, transparent 0)",
+          backgroundSize: "40px 40px",
+        }}
+      />
+    </div>
+
+    {/* LEFT TEXT — slightly bigger */}
+    <div className="relative z-10 text-white max-w-md">
+      <p className="text-base md:text-lg font-semibold tracking-[0.2em] uppercase leading-snug">
+        Expert, Data-Based Guidance on the Contracting Process
+      </p>
+    </div>
+  </div>
+
+  {/* RIGHT SIDE — LIGHT GREY */}
+  <div className="bg-[#F3F4F6] flex items-center px-8 md:px-12 lg:px-16">
+
+    <div className="max-w-lg">
+      {/* RIGHT TITLE — reduced size */}
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1E3A8A] leading-[1.1]">
+        Industry Training & <br />
+        Business Development
+      </h1>
+    </div>
+
+  </div>
+</section>
+
 
       {/* Yellow Divider */}
       <div className="h-2 bg-[#FDB913]" />
@@ -41,9 +53,14 @@ export function BusinessDevelopment() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header with Icon */}
           <div className="flex justify-center mb-6 md:mb-8">
-            <div className="bg-[#FDB913] p-6 md:p-8 rounded-full border-4 border-[#FDB913]">
-              <Lightbulb className="text-[#1E3A8A]" size={48} />
-            </div>
+            {/* ===== BULB LOGO (WITH BUILT-IN LINES) ===== */}
+      <div className="flex justify-center mb-6">
+        <img
+          src="/bulb.png"
+          alt="Idea Bulb"
+          className="w-36 md:w-44 lg:w-52 object-contain"
+        />
+      </div>
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1E3A8A] text-center mb-6 md:mb-8">
@@ -190,9 +207,14 @@ export function BusinessDevelopment() {
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-br from-[#1E3A8A] to-[#2563EB]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-8">
-            <Lightbulb className="text-[#FDB913] w-20 h-20" />
-          </div>
+          {/* ===== BULB LOGO (WITH BUILT-IN LINES) ===== */}
+      <div className="flex justify-center mb-6">
+        <img
+          src="/bulb.png"
+          alt="Idea Bulb"
+          className="w-60 md:w-68 lg:w-76 object-contain"
+        />
+      </div>
           
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
             Ready to Land More <span className="text-[#FDB913]">Government Contracts?</span>

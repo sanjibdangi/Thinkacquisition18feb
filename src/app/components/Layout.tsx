@@ -127,7 +127,7 @@ export function Layout() {
                 <img 
   src="/logo.png"
   alt="Think Acquisition" 
-  className="h-12 w-auto object-contain"
+  className="h-13 w-auto object-contain"
   style={{ imageRendering: 'crisp-edges' }}
 />
 

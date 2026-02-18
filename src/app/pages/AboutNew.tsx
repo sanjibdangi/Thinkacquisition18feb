@@ -213,9 +213,14 @@ export function AboutNew() {
       {/* Work With Us CTA */}
       <section className="py-24 bg-gradient-to-br from-[#1E3A8A] to-[#2563EB]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-block mb-8">
-            <Lightbulb className="text-[#FDB913] w-20 h-20" />
-          </div>
+          {/* ===== BULB LOGO (WITH BUILT-IN LINES) ===== */}
+      <div className="flex justify-center mb-6">
+        <img
+          src="/bulb.png"
+          alt="Idea Bulb"
+          className="w-52 md:w-60 lg:w-68 object-contain"
+        />
+      </div>
           
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
             Work with <span className="text-[#FDB913]">Think</span> Acquisition
