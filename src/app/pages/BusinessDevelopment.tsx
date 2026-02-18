@@ -4,11 +4,11 @@ import { Lightbulb, ArrowRight, Play } from 'lucide-react';
 export function BusinessDevelopment() {
   return (
     <div className="bg-white">
-      {/* Hero Section - Compact Split Design */}
-      <section className="relative grid lg:grid-cols-2 min-h-[260px] md:min-h-[300px]">
+   {/* ================= SPLIT HERO SECTION ================= */}
+<section className="relative grid lg:grid-cols-2 h-[260px] md:h-[300px] w-full">
 
   {/* LEFT SIDE — BLUE */}
-  <div className="relative bg-gradient-to-br from-[#1E3A8A] via-[#2B4A9D] to-[#3A5AB0] flex items-center px-8 md:px-12 lg:px-16">
+  <div className="relative bg-gradient-to-br from-[#1E3A8A] via-[#2B4A9D] to-[#3A5AB0] flex items-center justify-end px-6 md:px-12">
 
     {/* Background Pattern */}
     <div className="absolute inset-0 opacity-10">
@@ -22,27 +22,28 @@ export function BusinessDevelopment() {
       />
     </div>
 
-    {/* LEFT TEXT — slightly bigger */}
-    <div className="relative z-10 text-white max-w-md">
-      <p className="text-base md:text-lg font-semibold tracking-[0.2em] uppercase leading-snug">
+    {/* LEFT TEXT — RIGHT ALIGNED */}
+    <div className="relative z-10 max-w-2xl text-right">
+      <p className="text-sm md:text-base font-semibold tracking-[0.3em] uppercase text-white leading-snug">
         Expert, Data-Based Guidance on the Contracting Process
       </p>
     </div>
   </div>
 
   {/* RIGHT SIDE — LIGHT GREY */}
-  <div className="bg-[#F3F4F6] flex items-center px-8 md:px-12 lg:px-16">
-
-    <div className="max-w-lg">
-      {/* RIGHT TITLE — reduced size */}
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1E3A8A] leading-[1.1]">
-        Industry Training & <br />
-        Business Development
+  <div className="bg-[#F3F4F6] flex items-center justify-end px-6 md:px-12">
+    <div className="max-w-xl text-right">
+      <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-[#1E3A8A] leading-tight">
+        Industry Training & Business
+        <br />
+        Development
       </h1>
     </div>
-
   </div>
+
 </section>
+{/* ================= END SPLIT HERO ================= */}
+
 
 
       {/* Yellow Divider */}
